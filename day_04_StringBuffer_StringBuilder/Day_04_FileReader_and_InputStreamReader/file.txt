@@ -1,0 +1,5 @@
+FileReader: Directly reads characters from files. Limited to reading character-based content (e.g., text files).
+
+BufferedReader: Wraps another reader (like FileReader or InputStreamReader) and provides buffering, which increases performance, especially when reading large files or processing text line by line.
+
+InputStreamReader: Converts byte streams to character streams, allowing you to read byte-based input (e.g., binary files or network streams) as characters.
